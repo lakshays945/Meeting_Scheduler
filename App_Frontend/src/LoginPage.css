@@ -1,0 +1,78 @@
+/* styles.css (or your preferred CSS file) */
+.div-container {
+    width: 250px;
+    margin-left: 43%;
+    margin-top: 15%;
+    border:5px solid black;
+    border-radius: 15px;
+    background-color: lightgray;
+  }
+/* Style for the container div */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Style for date input */
+  .date-input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #3498db; /* Blue border color */
+    border-radius: 4px;
+    font-size: 14px; /* Reduced font size */
+    width: 100%;
+    box-sizing: border-box;
+    color: #3498db; /* Blue text color */
+  }
+  
+  /* Style for time input */
+  .time-input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #e74c3c; /* Red border color */
+    border-radius: 4px;
+    font-size: 14px; /* Reduced font size */
+    width: 100%;
+    box-sizing: border-box;
+    color: #e74c3c; /* Red text color */
+  }
+  
+  /* Optional: Style for labels if needed */
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .meeting{
+    width: fit-content;
+    font-size: large;
+    font-weight: bold;
+    border: black 5px solid;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #3498db;
+    padding: 3px;
+  }
+
+  .welcome{
+    width: fit-content;
+    font-size: x-large;
+    background: lightcoral;
+    font-weight: bolder;
+    border: 5px black solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .form-button{
+    width: fit-content;
+    padding: 3px;
+    display: inline;
+    align-content: center;
+    text-shadow: #e74c3c;
+  }
